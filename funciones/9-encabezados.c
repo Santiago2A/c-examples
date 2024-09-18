@@ -35,10 +35,11 @@ int funcion3(int x) {
     int y = x + 2;
     return y;
 }
-
+// funcion5(): Imprime un mensaje. Retorna el valor que recibió como argumento
+// incrementado en 10
 int funcion5(int x) {
-    printf("en funcion5");
-int funcion4(int x) {
-    printf("En funcion4()");
-    return x;
+    printf("En funcion3()...\n");
+    int y = x + 10;
+    return y;
+
 }
