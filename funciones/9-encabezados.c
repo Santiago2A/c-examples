@@ -15,6 +15,9 @@ int main() {
     
     r = funcion4(10);
     printf("r = %d\n", r);
+
+    r = funcion5(10);
+    printf("r = %d\n", r);
     return 0;
 
 }
@@ -38,6 +41,15 @@ int funcion3(int x) {
     return y;
 }
 
+// funcion5(): Imprime un mensaje. Retorna el valor que recibió como argumento
+// incrementado en 10
+int funcion5(int x) {
+    printf("En funcion3()...\n");
+    int y = x + 10;
+    return y;
+
+}
+
 // funcion4(): Imprime un mensaje. Retorna el valor que recibió como argumento
 // disminuido en 2
 
@@ -45,4 +57,5 @@ int funcion4(int x) {
     printf("En funcion3()...\n");
     int y = x - 2;
     return y;
-}    
+}  
+
